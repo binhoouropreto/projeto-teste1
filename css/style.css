@@ -1,0 +1,54 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0px;
+	height: 100vh;
+	width: 100vw;
+	background-color: #ebfffa;
+}
+.numero-principal {
+	font-size: 8rem;
+	margin: 20px;
+}
+.botoes {
+	display: flex;
+	width: 40vw;
+	justify-content: space-evenly;
+}
+.botao {
+	font-size: 1.8rem;
+	font-weight: bold;
+	padding: 15px;
+	width: 250px;
+	height: 100px;
+	border-radius: 50px;
+	border: none;
+	color: #e9fff9;
+    cursor: pointer;
+}
+.botao:hover {
+    color: #c9c9c9;
+}
+.dacasa {
+	background-color: #d64045;
+}
+.dacasa:hover {
+	background-color: #910509;
+}
+.visitante {
+	background-color: #1d3354;
+}
+.visitante:hover{
+    background-color: #041f47;
+}
+.reset {
+	background-color: #63ccd1;
+}
+.reset:hover {
+	background-color: #0d949b;
+}
+.botoes > img{
+    width: 120px;
+}
